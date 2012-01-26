@@ -1,0 +1,12 @@
+C:\Users\Validati0n\documents\visual studio 2010\Projects\intermed\intermed\bin\Debug\intermed.exe.config
+C:\Users\Validati0n\documents\visual studio 2010\Projects\intermed\intermed\bin\Debug\intermed.exe
+C:\Users\Validati0n\documents\visual studio 2010\Projects\intermed\intermed\bin\Debug\intermed.pdb
+C:\Users\Validati0n\documents\visual studio 2010\Projects\intermed\intermed\bin\Debug\intermed.xml
+C:\Users\Validati0n\documents\visual studio 2010\Projects\intermed\intermed\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Validati0n\documents\visual studio 2010\Projects\intermed\intermed\obj\x86\Debug\intermed.mainfrm.resources
+C:\Users\Validati0n\documents\visual studio 2010\Projects\intermed\intermed\obj\x86\Debug\intermed.Resources.resources
+C:\Users\Validati0n\documents\visual studio 2010\Projects\intermed\intermed\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Validati0n\documents\visual studio 2010\Projects\intermed\intermed\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Validati0n\documents\visual studio 2010\Projects\intermed\intermed\obj\x86\Debug\intermed.exe
+C:\Users\Validati0n\documents\visual studio 2010\Projects\intermed\intermed\obj\x86\Debug\intermed.xml
+C:\Users\Validati0n\documents\visual studio 2010\Projects\intermed\intermed\obj\x86\Debug\intermed.pdb

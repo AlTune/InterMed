@@ -1,0 +1,32 @@
+﻿InterMed - Decrypt rootfs
+
+InterMed © 2012 by Validati0n
+`'''''''''''''''''''''''''''´
+WARNING: DON'T USE A PWND (Sn0wbreeze/Redns0w/iFaith) iPSW 
+         IT WILL NOT WORK !!!
+
+
+Supported devices:
+                   iPhone 4 GSM (5.0/5.0.1/4.3.5)
+                   iPhone 4 CDMA (5.0/5.0.1)
+                   iPhone 3G[S] (5.0/5.0.1/4.3.5/4.3.4/4.3.3)
+                   iPad 1G (5.0/5.0.1/4.3.5/4.3.4/4.3.3)
+                   iPod 3G (5.0/5.0.1/4.3.5)
+                   iPod 4G (5.0/5.0.1)
+More firmware/device support coming soon...
+
+RC2:
+Adds more FW support
+Adds support for pwn'd firmwares
+Fixes some text errors
+Faster extracting (!)
+Fix loop at selecting out-file/dir
+Adds support for ALL devices/firmwares pwnd(!) ipsw's
+Adds Update check
+
+RC1:
+Initial Release
+
+InterMed ('Inter Medici') made by validati0n (@validati0n) for the Private Dev Team
+Open Source is avaible on Github (soon) !
+Used apps: dmg.exe (part of xpwn) and hfsplus.exe
