@@ -12,13 +12,15 @@ Supported devices:
                    iPod 4G (5.0/5.0.1)
 More firmware/device support coming soon...
 
+RC2.1:
+Fixed a cleanup Bug
+
 RC2:
 Adds more FW support
 Adds support for pwn'd firmwares
 Fixes some text errors
 Faster extracting (!)
 Fix loop at selecting out-file/dir
-Become Open Source
 Adds support for ALL devices/firmwares pwnd(!) ipsw's
 Adds Update check
 
@@ -28,4 +30,3 @@ Initial Release
 InterMed ('Inter Medici') made by validati0n (@validati0n) for the Private Dev Team
 Open Source is avaible on Github (soon) !
 Used apps: dmg.exe (part of xpwn) and hfsplus.exe
-You HAVE TO name me if you use this code...

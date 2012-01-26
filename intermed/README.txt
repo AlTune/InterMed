@@ -2,9 +2,6 @@
 
 InterMed © 2012 by Validati0n
 `'''''''''''''''''''''''''''´
-WARNING: DON'T USE A PWND (Sn0wbreeze/Redns0w/iFaith) iPSW 
-         IT WILL NOT WORK !!!
-
 
 Supported devices:
                    iPhone 4 GSM (5.0/5.0.1/4.3.5)
@@ -14,6 +11,9 @@ Supported devices:
                    iPod 3G (5.0/5.0.1/4.3.5)
                    iPod 4G (5.0/5.0.1)
 More firmware/device support coming soon...
+
+RC2.1:
+Fixed a cleanup Bug
 
 RC2:
 Adds more FW support

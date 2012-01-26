@@ -84,7 +84,7 @@ Partial Class mainfrm
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Location = New System.Drawing.Point(6, 169)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(290, 19)
+        Me.CheckBox1.Size = New System.Drawing.Size(272, 17)
         Me.CheckBox1.TabIndex = 5
         Me.CheckBox1.Text = "This is apwnd iPSW (Redsn0w/iFaith/Sn0wbreeze) "
         Me.CheckBox1.UseVisualStyleBackColor = True
@@ -94,7 +94,7 @@ Partial Class mainfrm
         Me.RadioButton2.AutoSize = True
         Me.RadioButton2.Location = New System.Drawing.Point(137, 143)
         Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(122, 19)
+        Me.RadioButton2.Size = New System.Drawing.Size(112, 17)
         Me.RadioButton2.TabIndex = 4
         Me.RadioButton2.Text = "Decrypt DMG only"
         Me.RadioButton2.UseVisualStyleBackColor = True
@@ -105,7 +105,7 @@ Partial Class mainfrm
         Me.RadioButton1.Checked = True
         Me.RadioButton1.Location = New System.Drawing.Point(6, 143)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(125, 19)
+        Me.RadioButton1.Size = New System.Drawing.Size(115, 17)
         Me.RadioButton1.TabIndex = 3
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "Extract to Directory"

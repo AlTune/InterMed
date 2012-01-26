@@ -8,20 +8,6 @@ Module doit
     Public rootfs As String = ""
     Public newversion As String = ""
 
-    Public Sub cleanup()
-        mainfrm.Label2.Text = "Clean up..."
-        My.Computer.FileSystem.DeleteDirectory(mainfrm.path, FileIO.DeleteDirectoryOption.DeleteAllContents)
-
-        mainfrm.Label2.Text = "Prepare Start"
-        If IO.Directory.Exists(mainfrm.path) = True Then
-            My.Computer.FileSystem.DeleteDirectory(mainfrm.path, FileIO.DeleteDirectoryOption.DeleteAllContents)
-        End If
-        My.Computer.FileSystem.CreateDirectory(mainfrm.path)
-        mainfrm.GroupBox2.Enabled = True
-
-        mainfrm.Label2.Text = "By validati0n (@validati0n) RC2"
-    End Sub
-
     Public Function isupdateavaible() As Boolean
         Dim aktuell As String = Application.ProductVersion
         Dim tempwc As New Net.WebClient

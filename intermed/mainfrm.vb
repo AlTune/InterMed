@@ -22,7 +22,8 @@ Public Class mainfrm
                         outdir = outdirdg.SelectedPath
                         Exit Do
                     Else
-                        cleanup()
+                        GroupBox2.Enabled = True
+                        Exit Sub
                     End If
                 Loop
             End Using
@@ -37,7 +38,8 @@ Public Class mainfrm
                         outfile = outdmgdg.FileName
                         Exit Do
                     Else
-                        cleanup()
+                        GroupBox2.Enabled = True
+                        Exit Sub
                     End If
                 Loop
             End Using
@@ -58,7 +60,7 @@ Public Class mainfrm
             My.Computer.FileSystem.CreateDirectory(path)
         Catch ex As Exception
             MsgBox("Error #1001")
-            cleanup()
+            GoTo CleanUP
             Exit Sub
         End Try
         Label2.Text = "Extracting Resource"
@@ -72,7 +74,7 @@ Public Class mainfrm
 
         Label2.Text = "Check iPSW"
         If isipswready() = False Then
-            cleanup()
+            GoTo CleanUP
             Exit Sub
         End If
         Label2.Text = mmodel & " " & mversion & " " & rootfs
@@ -110,7 +112,17 @@ Public Class mainfrm
             perc.Start()
             perc.WaitForExit()
         End If
-        cleanup()
+        Label2.Text = "Clean up..."
+CleanUP:
+        My.Computer.FileSystem.DeleteDirectory(path, FileIO.DeleteDirectoryOption.DeleteAllContents)
+
+        Label2.Text = "Prepare Start"
+        If IO.Directory.Exists(path) = True Then
+            My.Computer.FileSystem.DeleteDirectory(path, FileIO.DeleteDirectoryOption.DeleteAllContents)
+        End If
+        My.Computer.FileSystem.CreateDirectory(path)
+        GroupBox2.Enabled = True
+        Label2.Text = "By validati0n (@validati0n) RC2.1"
     End Sub
 
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
@@ -158,7 +170,7 @@ Public Class mainfrm
             Label2.Text = "There are Updates avaible (" & newversion & ")!"
             Label6.Text = "You have to update before you use InterMed..."
         Else
-            Label2.Text = "By validati0n (@validati0n) RC2"
+            Label2.Text = "By validati0n (@validati0n) RC2.1"
             GroupBox2.Enabled = True
         End If
     End Sub
